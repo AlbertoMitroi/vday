@@ -47,7 +47,7 @@ button {
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: fadeInOut 1s infinite ease-in-out;
+    animation: fadeInOut 0.3s infinite ease-in-out;
 }
 
 @keyframes fadeInOut {
