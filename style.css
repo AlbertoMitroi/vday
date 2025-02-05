@@ -40,18 +40,17 @@ button {
 }
 
 .pulsating-text {
-    font-family: 'Sacramento', cursive; /* Apply same font */
-    font-size: 48px; /* Match button/question size */
+    font-family: 'Sacramento', cursive; /* Same font as buttons/question */
+    font-size: 48px; /* Adjusted size */
     color: red; /* Text color */
-    position: absolute; /* Center over image */
-    top: 50%;
+    position: absolute; /* Absolute position relative to container */
+    top: 35%; /* Position above the image */
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: fadeInOut 2s infinite ease-in-out;
+    animation: fastBlink 0.3s infinite alternate; /* Faster blinking */
 }
 
 @keyframes fadeInOut {
-    0% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
-    50% { opacity: 1; transform: translate(-50%, -50%) scale(1.2); }
+    0% { opacity: 1; transform: translate(-50%, -50%) scale(1.2); }
     100% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
 }
