@@ -42,12 +42,12 @@ button {
 .pulsating-text {
     font-family: 'Sacramento', cursive; /* Same font as buttons/question */
     font-size: 48px; /* Adjusted size */
-    color: red; /* Text color */
+    color: blue; /* Text color */
     position: absolute; /* Absolute position relative to container */
-    top: 35%; /* Position above the image */
+    top: 20%; /* Position above the image */
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: fastBlink 0.3s infinite alternate; /* Faster blinking */
+    animation: fastBlink 0.1s infinite alternate; /* Faster blinking */
 }
 
 @keyframes fadeInOut {
